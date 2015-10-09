@@ -3,9 +3,9 @@ using System.Collections;
 
 public class RotationBonus : MonoBehaviour {
 
-	
-	// Update is called once per frame
-	void Update () {
-		transform.Rotate(new Vector3(15,30,45) * Time.deltaTime);	
-	}
+    
+    // Update is called once per frame
+    void Update () {
+        transform.Rotate(new Vector3(15,30,45) * Time.deltaTime);    
+    }
 }
